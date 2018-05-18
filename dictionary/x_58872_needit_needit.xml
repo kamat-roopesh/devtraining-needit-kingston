@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Assignee" max_length="32" name="u_assignee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact" max_length="40" name="u_impact" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="low"/>
+                <element label="Medium" sequence="1" value="medium"/>
+                <element label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="open"/>
+                <element label="In Progress" sequence="1" value="in progress"/>
+                <element label="Pending" sequence="2" value="pending"/>
+                <element label="Closed" sequence="3" value="closed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Tittle" max_length="100" name="u_tittle" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Urgency" max_length="40" name="u_urgency" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="low"/>
+                <element label="Medium" sequence="1" value="medium"/>
+                <element label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_assignee"/>
+        </index>
+    </element>
+</database>
