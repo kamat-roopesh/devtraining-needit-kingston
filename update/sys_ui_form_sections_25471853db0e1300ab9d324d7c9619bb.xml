@@ -18,16 +18,30 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-18 12:32:31</sys_created_on>
+            <sys_created_on>2018-05-18 15:56:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ed475853db0e1300ab9d324d7c9619f5</sys_id>
+            <sys_id>bbf5455bdb4e1300ab9d324d7c9619eb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_58872_needit_needit" name="x_58872_needit_needit" sys_domain="global" view="Default view">25471853db0e1300ab9d324d7c9619bb</sys_ui_form>
-            <sys_ui_section caption="Activity" display_value="Activity" name="x_58872_needit_needit" sys_domain="global" view="Default view">e5471853db0e1300ab9d324d7c9619ba</sys_ui_section>
+            <sys_ui_section caption="Logs" display_value="Logs" name="x_58872_needit_needit" sys_domain="global" view="Default view">fbf5455bdb4e1300ab9d324d7c9619e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-18 12:32:31</sys_updated_on>
+            <sys_updated_on>2018-05-18 15:56:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-18 15:56:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bff5855bdb4e1300ab9d324d7c961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_needit" name="x_58872_needit_needit" sys_domain="global" view="Default view">25471853db0e1300ab9d324d7c9619bb</sys_ui_form>
+            <sys_ui_section caption="statistics" display_value="statistics" name="x_58872_needit_needit" sys_domain="global" view="Default view">f3f5455bdb4e1300ab9d324d7c9619ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-18 15:56:38</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_58872_needit_needit</name>
