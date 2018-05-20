@@ -12,6 +12,7 @@
                 <element label="High" sequence="2" value="high"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="u_priority" type="string">
             <choice>
                 <element label="1-Urgent" sequence="0" value="1-urgent"/>
@@ -49,14 +50,14 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal 1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
-                <element label="Human Resources 1" sequence="0" value="hr1"/>
-                <element label="Human Resources 1" sequence="1" value="hr2"/>
+                <element label="Human Resources 1" sequence="0" value="hr2"/>
                 <element label="Facilities 1" sequence="2" value="facilities 1"/>
                 <element label="Facilities 2" sequence="3" value="facilities 2"/>
                 <element label="Legal 1" sequence="4" value="legal 1"/>
                 <element label="Legal 2" sequence="5" value="legal 2"/>
                 <element label="Your Department Choice 1" sequence="6" value="your_choice1"/>
                 <element label="Your Department Choice 2" sequence="7" value="your_choice2"/>
+                <element label="Other" sequence="8" value="other"/>
             </choice>
         </element>
         <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
